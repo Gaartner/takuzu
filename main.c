@@ -426,7 +426,7 @@ void start_takuzu() // mode joueur VS ME
     int solution_4x4[4][4]={{1, 0, 0, 1},{1, 0, 1, 0},{0, 1, 1, 0},{0, 1, 0, 1}};
     int solution_8x8[8][8]={{1, 0, 1, 1,0,1,0,0},{1, 0, 1, 0,1,0,0,1},{0, 1, 0, 1,1,0,1,0},{0, 1, 0, 1,0,1,1,0},{1, 0, 1, 0,0,1,0,1},{0, 1, 0, 0,1,0,1,1},{0, 0, 1, 1,0,1,1,0},{1, 1, 0, 0,1,0,0,1}};
     do{
-    printf("qu elle est la taille: " );
+    printf("Vous desirez jouer en taille 4 ou 8 ?" );
     scanf("%d",& SIZE);
     }while (SIZE!=4 && SIZE!=8);// saisie securisé
     int **carte;
